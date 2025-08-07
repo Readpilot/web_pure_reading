@@ -1,0 +1,11 @@
+{
+  "name": "web_pure_reading",
+  "version": "1.0.0",
+  "description": "A tool for pure reading on web",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": ["pure reading", "web"],
+  "author": "charlie.deng.fan@outlook.com",
+  "license": "ISC"
+}

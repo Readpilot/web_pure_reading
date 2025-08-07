@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true, // 不生成输出文件，只做类型检查
+    "declaration": true, // 生成 .d.ts 类型声明文件
+    "outDir": "dist"     // 输出目录
+  },
+  "include": ["./*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
