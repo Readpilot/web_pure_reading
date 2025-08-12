@@ -84,7 +84,7 @@ export class ConvertToMetadata {
     let currentNodeId = this._createId();
     currentNode.id = currentNodeId;
     if (node.nodeType === 3) {
-      let textContent = node.textContent!.replaceAll('\n',"");
+      let textContent = node.textContent!.replace(/\n/g, "");
       if (textContent.length) {
         currentNode.content = textContent;
         currentNode.tagName = "#text";
